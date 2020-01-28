@@ -8,13 +8,15 @@ import { ServicesProvidedComponent } from './services-provided/services-provided
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule,MatSidenavModule} from '@angular/material';
+import { ShowcaseDevelopmentComponent } from './showcase-development/showcase-development.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ServicesProvidedComponent
+    ServicesProvidedComponent,
+    ShowcaseDevelopmentComponent
   ],
   imports: [
     BrowserModule,
